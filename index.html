@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <img src="my pic.jfif" alt="mypic">
+      <h1>Hello,</h1>
+      <p>I'm Lavina Ratwani</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Second year student at SRMIST. Currently studying Computer Science Engineering. Interested in learning and exploring new technologies. Proficient with Python, MySql, C++, C, HTML with few other languages. Skilled at Figma and web designing. Aiming to become a skilled Software Engineer.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="project">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>An e-authentication system is a digital authentication mechanism that enables users to prove their identity online. The purpose of an e-authentication system is to ensure that the user accessing a digital service is who they claim to be. This system can be used in various applications such as online banking, e-commerce, government services, and many more.
+           The e-authentication system typically involves the use of a combination of credentials, such as a username and password, and a two-factor authentication method such as SMS verification, email verification, or biometric authentication.
+           The system works by authenticating the user's credentials against a pre-registered set of information. Once the authentication is successful, the user is granted access to the service or application. If the authentication fails, the user is denied access and prompted to provide correct credentials.
+           The benefits of an e-authentication system are numerous. It ensures the security of online transactions and services, prevents identity theft and fraud, and protects sensitive information. It also provides convenience for users, as they do not have to physically visit an office or institution to complete certain tasks or services.
+           However, there are also some challenges associated with e-authentication systems, such as the risk of hacking, phishing attacks, and user errors such as forgetting login credentials. To mitigate these risks, the e-authentication system must implement robust security measures such as encryption, firewalls, and regular updates.
+           Overall, an e-authentication system is a crucial component of modern digital services and applications, providing secure and convenient access for users while maintaining the integrity of the digital infrastructure.</p>
+      </div>
+      <div class="project">
+        <img src="projrct2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>A face detection project is an application that utilizes computer vision techniques to detect human faces in images or video streams. The objective of the project is to identify the presence and location of human faces within an image or video frame.
+            The face detection process involves various techniques such as image processing, pattern recognition, and machine learning. The primary goal is to accurately identify the regions of an image or video frame that contain a human face. Once a face is detected, the application may also perform further analysis, such as identifying the gender, age, and facial expressions of the person in the image.
+            The technology behind face detection has advanced significantly in recent years, with high accuracy rates and real-time processing capabilities. It has numerous practical applications, including security and surveillance, biometric identification, photography, and social media.
+            The face detection project typically involves the use of libraries such as OpenCV and TensorFlow, which provide pre-trained models for face detection and recognition. These libraries can be used to develop a variety of applications, such as a security camera system that alerts authorities if an unauthorized person is detected, or a photography application that automatically detects and focuses on human faces.
+            However, there are also some challenges associated with face detection, such as occlusion, variations in lighting and angles, and changes in facial expressions. These challenges can affect the accuracy of the detection, and developers must take measures to account for these factors.
+            Overall, a face detection project is an exciting and rapidly developing area of computer vision technology. It has numerous practical applications and is likely to play an increasingly important role in various industries, from security and surveillance to entertainment and social media.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio</p>
+  </footer>
+</body>
+</html>
